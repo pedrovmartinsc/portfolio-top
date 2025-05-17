@@ -5,8 +5,8 @@
 }
 
 #contact button {
-    background-color: #292500;
-    size: 5vh;
+    background-color: #00000065;
+    size: 5vb;
     border: 2px solid black;
     padding: 3px 10px;
     border-radius: 20px;
@@ -28,24 +28,6 @@ main #contact .content{
     justify-content: center;
     align-items: center;
 }
-
-input {
-    width: 100%;
-    background-color: #292500;
-    border: 2px solid black;
-    border-radius: 10px;
-    padding: 3px;
-
-}
-
-textarea {
-    width: 100%;
-    background-color: #292500;
-    border: 2px solid black;
-    border-radius: 10px;
-    padding: 3px;
-
-}
 main #contact .content form{
     width: 100%;
     height: 30rem;
@@ -55,4 +37,31 @@ main #contact .content form{
 }
 main #contact .content form label{
     font-weight: 500;
+}
+main #contact .content form input, main #contact .content form textarea{
+    width: 100%;
+    background-color: #00000065;
+    border: 2px solid black;
+    border-radius: 0.75rem;
+    padding: 0.75rem;
+    font-family: inherit;
+    resize: none;
+    font-size: 1rem;
+    
+
+
+}
+main #contact .content form textarea:focus{
+    outline: none;
+    border: 0.063rem solid var(--cor-secundaria);
+
+
+
+}
+main #contact .content form input:focus{
+    outline: none;
+    border: 0.063rem solid var(--cor-secundaria);
+
+
+
 }
