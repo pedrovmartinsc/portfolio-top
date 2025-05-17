@@ -1,0 +1,164 @@
+main {
+
+    width: 100%;
+    height: 100vh;
+    padding: 0 8vw;
+}
+
+main #home {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+main #home .content {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+main #home .content h2 {
+    font-size: 2rem;
+    margin-bottom: 0.625;
+}
+
+main #home .content h2 span {
+    color: var(--cor-secundaria);
+}
+
+.funny {
+    color: var(--cor-secundaria);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+
+}
+
+main #home .content h3 {
+    font-size: 1.5rem;
+}
+
+main #home .content p {
+    font-size: 1.125rem;
+    margin: 30px 0;
+}
+
+main #home .photo div {
+    width: 55vh;
+    height: 55vh;
+    border-radius: 50%;
+    overflow: hidden;
+    transition: 0.3s;
+    border: solid 7px black;
+
+
+}
+
+main #home .photo div img {
+    width: 100%;
+
+}
+
+main #home .content ul .download a {
+
+    width: 11.25rem;
+    height: 3.125rem;
+    margin-right: 1.25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.125rem;
+    background-color: var(--cor-secundaria);
+    color: #040622;
+    border-radius: 1.563rem;
+
+
+}
+
+main #home .content ul .download a:hover {
+    background-color: var(--cor-principal);
+    color: var(--cor-secundaria);
+    border: var(--cor-secundaria) solid 0.063rem;
+}
+
+main #home .content ul .social {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.3s ease;
+}
+
+main #home .content ul .social a {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border-radius: 50%; */
+
+
+}
+
+main #home .content ul .social a:hover {
+    border: 0.063rem solid var(--cor-secundaria);
+    border-radius: 50%;
+
+}
+
+main #home .content ul .social:hover {
+
+    transform: scale(1.1);
+}
+
+main #home .content ul {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+main #contact {
+    width: 100%;
+    height: 100%;
+    padding: 8vh 18vw;
+}
+
+input {
+    width: 100%;
+    background-color: #292500;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 3px;
+
+}
+
+textarea {
+    width: 100%;
+    background-color: #292500;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 3px;
+
+}
+
+#contact2 {
+    text-align: center;
+}
+
+#contact button {
+    background-color: #292500;
+    size: 5vh;
+    border: 2px solid black;
+    padding: 3px 10px;
+    border-radius: 20px;
+    font-family: "Poppins";
+    font-weight: bolder;
+}
+
+#contact button:hover {
+    color: var(--cor-secundaria);
+    cursor: pointer;
+    background-color: #605702
+}

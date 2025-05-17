@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+
+
+
+<body style="font-family: Arial, sans-serif; margin-top: 20px; background-color: #f0f0f0;">
+    <!-- Tag de formulário -->
+    <h1 style="text-align: center; color: #333;">Faça o seu Pedido Massa&...</h1>
+
+    <hr style="margin-top: 20px;" />
+    <form
+        style="background-color: #f0f0f0; padding: 20px; border: 1px solid #ccc; border-radius: 5px; max-width: 600px; margin: auto">
+        <h2>Dados do cliente</h2>
+        <br />
+        <label for="nome_cliente">Nome: </label>
+        <input class="meuinput" type="text" id="nome_cliente" placeholder="Nome" name="nome" />
+        <br />
+        <label for="email_cliente">E-mail: </label>
+        <input class="meuinput" type="email" id="email_cliente" placeholder="exemplo@texto.com.br" name="email">
+        <br />
+        <hr />
+        <h2>Endereço</h2>
+        <br />
+        <label for="bairro_cliente">Bairro </label>
+        <input type="text" placeholder="Bairro" id="bairro_cliente" name="bairro">
+        <br />
+        <label for="uf_cliente">UF: </label>
+        <input type="text" placeholder="UF" id="uf_cliente" name="uf">
+        <!-- Logradouro -->
+        <!-- Cep -->
+        <!-- Localidade -->
+        <!-- Complemento -->
+        <br />
+        <label for="numero_enreco_cliente">Número: </label>
+        <input type="number" placeholder="Número" id="numero_enredeco_cliente" name="numero_enredeco">
+        <br />
+        <hr />
+        <h2>Monte a sua pizza</h2>
+        <br />
+        <p> Borda </p>
+        <br />
+        <input type="radio" id="borda_cheddar" name="borda_pizza" value="cheddar">
+        <label for="borda_cheddar">Cheddar</label>
+        <br />
+        <input type="radio" id="borda_requeijao" name="borda_pizza" value="requeijao">
+        <label for="borda_requeijao">Requeijão</label>
+        <br />
+        <input type="radio" id="borda_catupiry" name="borda_pizza" value="catypiry">
+        <label for="borda_catupiry">Catupiry</label>
+        <br />
+        <input type="radio" id="borda_chocolate" name="borda_pizza" value="chocolate">
+        <label for="borda_chocolate">Chocolate</label>
+        <br />
+        <input type="radio" id="borda_creamcheese" name="borda_pizza" value="creamcheese">
+        <label for="borda_creamcheese">Cream Cheese</label>
+        <br />
+        <br />
+        <!-- Select -->
+        <label for="sabor">Sabor: </label>
+        <select name="sabor" id="sabor">
+            <option value="4queijo">4Queijo</option>
+            <option value="marguerita">Marguerita</option>
+            <option value="chocolate">Chocolate</option>
+            <option value="calabresa">Calabresa</option>
+            <option value="mussarela">Mussarela</option>
+            <option value="frango">Frango</option>
+            <option value="portuguesa">Portuguesa</option>
+
+        </select>
+        </br>
+
+        <p>Adicionais</p>
+        <input type="checkbox" id="queijo" name="adicional1" value="queijo" />
+        <label for="queijo">Queijo</label>
+        <br />
+        <input type="checkbox" id="bacon" name="adicional2" value="bacon" />
+        <label for="bacon">Bacon</label>
+        <br />
+        <input type="checkbox" id="milho" name="adicional3" value="milho" />
+        <label for="milho">Milho</label>
+        <br />
+        <input type="checkbox" id="tomate" name="adicional4" value="tomate" />
+        <label for="tomate">Tomate</label>
+        <br />
+        <label for="obs">Observação</label>
+        <br />
+        <textarea id="obs" name="obs"></textarea>
+        <br />
+        <br />
+        <input type="submit" value="Enviar" />
+
+
+
+    </form>
+    <h2>estou bem aqui e nem pego estilo</h2>
+</body>
+
+</html>
