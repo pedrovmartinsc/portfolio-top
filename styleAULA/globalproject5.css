@@ -11,10 +11,10 @@ html {
 
 * {
 
-   margin: 0;
-   padding: 0;
-   box-sizing: border-box;
-   color: var(--cor-generica);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: var(--cor-generica);
 }
 body{
     background-color: var(--cor-principal);
@@ -32,7 +32,7 @@ li{
 
 
 .photo div:hover{
-     transform: scale(1.05);
+    transform: scale(1.05);
 }
 .photo{
     width: 40%;
